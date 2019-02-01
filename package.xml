@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+  <package format="2">
+  <name>beginner_tutorial</name>
+  <version>0.0.0</version>
+  <description>beginner tutorial for c++ msg subscriber publisher</description>
+
+  <maintainer email="kaicheng@todo.todo">kaicheng</maintainer>
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>rospy</depend>
+  <depend>std_msgs</depend>
+  <depend>genmsg</depend>
+  <depend>message_generation</depend>
+  <depend>message_runtime</depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
