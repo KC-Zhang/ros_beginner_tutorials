@@ -1,0 +1,17 @@
+to compile:
+	put the beginner_tutorial folder in your ~/catkin_ws/src
+	cd ~/catkin_ws
+	catkin build
+
+to run:
+open a terminal
+	roscore
+open another terminal:
+		cd ~/catkin_ws
+		source devel/setup.bash
+		rosrun beginner_tutorials talker
+open another terminal:
+		cd ~/catkin_ws
+		source devel/setup.bash
+		rosrun beginner_tutorials listener
+		
